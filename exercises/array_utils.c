@@ -143,6 +143,10 @@ int * filterThreshold(const int *arr, int size, int threshold, int *resultSize) 
     }
     int *result = (int *)malloc(sizeof(int) * count);
     if (result == NULL) {
+        
+        *resultSize = 0;
+        return NULL;
+    }
 }
 
 int **createMultiplicationTable(int n, int m) {
