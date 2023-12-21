@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include<math.h>
 
 #include "array_utils.h"
 
