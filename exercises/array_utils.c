@@ -141,6 +141,8 @@ int * filterThreshold(const int *arr, int size, int threshold, int *resultSize) 
             ++count;
         }
     }
+    int *result = (int *)malloc(sizeof(int) * count);
+    if (result == NULL) {
 }
 
 int **createMultiplicationTable(int n, int m) {
