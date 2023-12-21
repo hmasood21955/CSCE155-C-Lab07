@@ -63,6 +63,7 @@ int getMax(const int *arr, int size);
  */
 int getIndexOfMax(const int *arr, int size);
 int* filterThreshold(const int *arr, int size, int threshold, int *resultSize);
+int** createMultiplicationTable(int n, int m);
 
 /**
  * TODO: add your own documentation
@@ -73,3 +74,4 @@ int * filterThreshold(const int *arr, int size, int threshold, int *resultSize);
  * TODO: add your own documentation
  */
 int **createMultiplicationTable(int n, int m);
+#endif  // ARRAY_UTILS_H
