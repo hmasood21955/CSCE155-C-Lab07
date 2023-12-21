@@ -135,6 +135,12 @@ int getIndexOfMax(const int *arr, int size) {
 
 int * filterThreshold(const int *arr, int size, int threshold, int *resultSize) {
   //TODO: implement
+  int count = 0;
+    for (int i = 0; i < size; ++i) {
+        if (arr[i] >= threshold) {
+            ++count;
+        }
+    }
 }
 
 int **createMultiplicationTable(int n, int m) {
