@@ -7,6 +7,8 @@
  * Prints the given integer array to the standard output
  */
 void printArray(const int *arr, int n);
+#ifndef ARRAY_UTILS_H
+#define ARRAY_UTILS_H
 
 /**
  * Prints the given (n x m) integer table to the standard
