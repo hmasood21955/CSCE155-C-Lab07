@@ -38,6 +38,7 @@ void freeTable(int **table, int n);
 /**
  * TODO: add your own documentation
  */
+int* generateRandomArray(int size);
 double getMean(const int *arr, int size);
 
 /**
