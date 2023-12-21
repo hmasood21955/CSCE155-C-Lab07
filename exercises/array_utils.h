@@ -40,6 +40,7 @@ void freeTable(int **table, int n);
  */
 int* generateRandomArray(int size);
 void printArray(const int *arr, int size);
+int getSum(const int *arr, int size);
 double getMean(const int *arr, int size);
 
 /**
@@ -61,6 +62,7 @@ int getMax(const int *arr, int size);
  * TODO: add your own documentation
  */
 int getIndexOfMax(const int *arr, int size);
+int* filterThreshold(const int *arr, int size, int threshold, int *resultSize);
 
 /**
  * TODO: add your own documentation
