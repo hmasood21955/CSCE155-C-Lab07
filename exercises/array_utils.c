@@ -102,6 +102,9 @@ int getIndexOfMin(const int *arr, int size) {
 
 int getMax(const int *arr, int size) {
   //TODO: implement
+   if (size == 0) {
+        return 0; 
+    }
 }
 
 int getIndexOfMax(const int *arr, int size) {
