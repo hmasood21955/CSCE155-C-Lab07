@@ -147,6 +147,17 @@ int * filterThreshold(const int *arr, int size, int threshold, int *resultSize) 
         *resultSize = 0;
         return NULL;
     }
+
+    
+    int index = 0;
+    for (int i = 0; i < size; ++i) {
+        if (arr[i] >= threshold) {
+            result[index++] = arr[i];
+        }
+    }
+
+    *resultSize = count;
+    return result;
 }
 
 int **createMultiplicationTable(int n, int m) {
