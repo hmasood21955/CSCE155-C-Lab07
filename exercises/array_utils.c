@@ -85,6 +85,9 @@ int getMin(const int *arr, int size) {
 
 int getIndexOfMin(const int *arr, int size) {
   //TODO: implement
+      if (size == 0) {
+        return -1; 
+    }
 }
 
 int getMax(const int *arr, int size) {
